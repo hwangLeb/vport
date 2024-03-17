@@ -1,0 +1,385 @@
+/* === LIGHT MODE KO NA MANUAL === */
+
+
+/* === BODY COLOR START === */
+body.light-mode {
+    background-color: #ffffff;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+/* === BODY COLOR END === */
+
+/* === CURSOR CHANGE === */
+body.light-mode .cursor-outline {
+    border: 2px solid rgb(0, 0, 0, 0.7);
+}
+
+/* === CLOCK CHANGE === */
+body.light-mode #digital-clock {
+    color: #121212;
+}
+
+/* === NAVBAR COLOR START === */
+body.light-mode .home.active .navbar {
+    background-color: #f6f8fc;
+}
+
+body.light-mode .navbar ul.nav-links li a {
+    color: #1f1f1f;
+}
+
+body.light-mode .navbar .menu-btn .bar {
+    background-color: #1f1f1f;
+}
+
+body.light-mode .navbar ul.nav-links {
+    color: #1f1f1f;
+}
+
+/* === NAVBAR COLOR END === */
+
+
+/* === HEADER COLOR START === */
+body.light-mode .content h1 {
+    color: #1f1f1f;
+}
+
+body.light-mode .glitch:after {
+    color: #1f1f1f;
+}
+
+body.light-mode .content p {
+    color: #1f1f1f;
+}
+
+
+/* === HEADER COLOR END === */
+
+
+/* === ABOUT ME COLOR START === */
+body.light-mode .profile .profile-image::before {
+    outline: 3px solid #1f1f1f;
+}
+
+body.light-mode .profile .profile-desc h3 {
+    color: #1f1f1f;
+}
+
+body.light-mode .profile .profile-desc p {
+    color: #1f1f1f;
+}
+
+body.light-mode .dlbutton {
+    color: #1f1f1f;
+}
+
+body.light-mode .dlbutton i {
+    color: #121212;
+}
+
+body.light-mode .dlbutton:focus {
+    color: #121212;
+}
+
+body.light-mode .dlbutton:hover {
+    color: #121212;
+}
+
+body.light-mode .dlbutton:after {
+    background-color: #121212;
+}
+
+body.light-mode .career-item {
+    background-color: #f6f8fc;
+}
+
+body.light-mode .career-desc h2 {
+    color: #121212;
+}
+
+body.light-mode .career-desc p {
+    color: #121212;
+}
+
+body.light-mode .icon img {
+    background-color: #f6f8fc;
+}
+
+/* === ABOUT ME COLOR END === */
+
+
+/* === SERVICES COLOR START === */
+body.light-mode .services-content .card {
+    background-color: #f6f8fc;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+body.light-mode .services-content .card:hover {
+    box-shadow: 0px 3px 3px 0px #121212;
+}
+
+body.light-mode .services-content .card-img {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(48, 48, 48, 0.25);
+}
+
+body.light-mode .services h2 {
+    color: #1f1f1f;
+}
+
+body.light-mode .services-content .card h3 {
+    color: #1f1f1f;
+}
+
+body.light-mode .services-content .card p {
+    color: #1f1f1f;
+}
+
+/* === SERVICES COLOR END === */
+
+
+/* === SKILLS COLOR START === */
+body.light-mode .skills {
+    background-color: #efefef;
+}
+
+body.light-mode .skills-container .card h3 {
+    color: #1f1f1f;
+}
+
+body.light-mode .skills-container .card p {
+    color: #1f1f1f;
+}
+
+body.light-mode .skills h2 {
+    color: #1f1f1f;
+}
+
+body.light-mode .skills p {
+    color: #1f1f1f;
+}
+
+body.light-mode .skill-bars {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+body.light-mode .skills-card {
+    background-color: #ffffff;
+}
+
+body.light-mode .content-desc {
+    color: #121212;
+}
+
+/* === SKILLS COLOR END === */
+
+
+/* === TIMELINE COLOR START === */
+body.light-mode .timeline-contents .box {
+    background-color: #f6f8fc;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+body.light-mode .timeline-contents .box:hover {
+    box-shadow: 0px 3px 3px 0px #121212;
+}
+
+body.light-mode .timeline h2 {
+    color: #1f1f1f;
+}
+
+body.light-mode .timeline-contents .box h3 {
+    color: #1f1f1f;
+}
+
+body.light-mode .timeline-contents .box p {
+    color: #1f1f1f;
+}
+
+/* === TIMELINE COLOR END === */
+
+
+/* === PROJECTS COLOR START === */
+body.light-mode .projects h2 {
+    color: #1f1f1f;
+}
+
+body.light-mode .project-card {
+    background-color: #f6f8fc;
+}
+
+body.light-mode .project-card .description {
+    background-color: #f6f8fc;
+}
+
+body.light-mode .project-card .description::before {
+    background-color: #f6f8fc;
+}
+
+body.light-mode .projects h1 {
+    color: #1f1f1f;
+}
+
+body.light-mode .projects p {
+    color: #1f1f1f;
+}
+
+body.light-mode .proj-btn a {
+    color: #1f1f1f;
+}
+
+body.light-mode .proj-btn i {
+    color: #121212;
+}
+
+body.light-mode .proj-btn:focus {
+    color: #121212;
+}
+
+body.light-mode .proj-btn:hover {
+    color: #121212;
+}
+
+body.light-mode .proj-btn:after {
+    background-color: #121212;
+}
+
+/* === PROJECTS COLOR END === */
+
+
+/* === CERTIFICATES COLOR START === */
+body.light-mode .certificates h2 {
+    color: #1f1f1f;
+}
+
+body.light-mode .certificates p {
+    color: #1f1f1f;
+}
+
+body.light-mode .item-link {
+    background-color: #f6f8fc;
+    color: #121212;
+}
+
+body.light-mode .item-link:hover {
+    background: #0496ff;
+    color: #121212;
+}
+
+body.light-mode .menu-active {
+    background: #0496ff;
+    color: #121212;
+}
+
+body.light-mode .overlay p {
+    color: #ffffff;
+}
+
+
+/* === CERTIFICATES COLOR END === */
+
+
+/* === TESTIMONIALS COLOR START === */
+body.light-mode .testimonials {
+    background-color: #efefef;
+}
+
+body.light-mode .testimonials h2 {
+    color: #121212;
+}
+
+body.light-mode .testimonials p {
+    color: #121212;
+}
+
+body.light-mode .blog-slider {
+    background: #ffffff;
+}
+
+body.light-mode .blog-slider__code {
+    color: #121212;
+}
+
+body.light-mode .blog-slider__text {
+    color: #121212;
+}
+
+/* === TESTIMONIALS COLOR END === */
+
+
+/* === CONTACT COLOR START === */
+body.light-mode .contact h2 {
+    color: #121212;
+}
+
+body.light-mode .contact p {
+    color: #121212;
+}
+
+body.light-mode .contact a {
+    color: #121212;
+}
+
+body.light-mode .column h1 {
+    color: #1f1f1f;
+}
+
+body.light-mode .column i {
+    color: #1f1f1f;
+}
+
+body.light-mode .column h3 {
+    color: #1f1f1f;
+}
+
+body.light-mode .column p {
+    color: #1f1f1f;
+}
+
+body.light-mode .social-buttons {
+    background-color: #f6f8fc;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+body.light-mode form {
+    background-color: #f6f8fc;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+    color: #1f1f1f;
+}
+
+/* === CONTACT COLOR END === */
+
+
+/* === FORM COLOR START === */
+body.light-mode input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    background-color: #ffffff;
+    color: #1f1f1f;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+body.light-mode input[type="submit"] {
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+body.light-mode input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #1f1f1f;
+    border: 1px solid rgba(36, 37, 38, 0.25);
+}
+
+/* === FORM COLOR END === */
+
+
+/* === FOOTER COLOR START === */
+body.light-mode .copyright {
+    color: #121212;
+}
+
+/* === FOOTER COLOR END === */

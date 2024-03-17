@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- === ALL LINKS START === -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.0/dist/sweetalert2.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="light-mode.css">
+  <link rel="stylesheet" href="loaders.css">
+   <!-- === ALL LINKS END === -->
+  <title>LEVI PORTFOLIO</title>
+</head>
+
+<body>
+
+  <!-- === LOADERS START === -->
+  <div class="loading-overlay" id="loader">
+    <div class="loading-overlay-content">
+      <div class="loader">
+        <div class="loader-inner">
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+          <div class="loader-block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- === LOADERS END === -->
+
+  <!-- === CIRCLE CURSOR === -->
+  <div class="cursor-outline" data-cursor-outline></div>
+
+  <!-- === TOP NAVBAR START === -->
+  <section class="home" id="home">
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li id="link0"><a href="#Home">Home</a></li>
+        <li id="link1"><a href="#About">About</a></li>
+        <li id="link2"><a href="#Skills">Skills</a></li>
+        <li id="link3"><a href="#Projects">Projects</a></li>
+        <li id="link4"><a href="#Contact">Contact</a></li>
+      </ul>
+
+      <label class="switch" id="lightModeToggle">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+      </label>
+
+      <div class="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </section>
+  <!-- === NAVBAR END === -->
+
+  <!-- === LANDING PAGE START AYE AYE === -->
+
+  <header class="about">
+
+    <div class="content">
+      <h1>Hi, I'm <div class="glitch-wrapper">
+          <div class="glitch" data-glitch="Viel Eugenio">Viel Eugenio</div>
+        </div>IT Student</h1>
+    </div>
+  </header>
+
+  <!-- === LANDING PAGE END === -->
+
+  <div class="center-hr">
+    <hr class="custom-hr">
+  </div>
+
+  <!-- === ABOUT ME START === -->
+  <section class="profile">
+    <div class="profile-image">
+      <img src="images/profile.JPG">
+    </div>
+
+    <div class="profile-desc">
+      <h2>About Me</h2>
+      <h3>Viel Eugenio</h3>
+      <p>Hello, I'm a Information Technology student from <strong>National Teachers College</strong>, currently enrolled in the <strong>3.1 BSIT</strong> block.  
+      <div>
+        <a href="Resume.pdf" target="_blank"><button class="dlbutton">Download CV<i class="ri-download-line"></i></button></a>
+      </div>
+    </div>
+  </section>
+  <!-- === ABOUT ME END === -->
+  <!-- === SERVICES START === -->
+  <section class="services">
+    <div class="services-container">
+      <h2>What I can provide?</h2>
+      <div class="services-content">
+
+        <!-- === CARD START === -->
+        <div class="card">
+          <div class="card-img">
+            <img src="images/web.png" alt="image">
+          </div>
+          <div class="services-info">
+            <h3>Web Design</h3>
+            <p>With basics experience in HTML, CSS, and JavaScript fundamentals.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/ux.png" alt="image">
+          </div>
+          <div class="services-info">
+            <h3>UI/UX Design</h3>
+            <p>An aspiring UI/UX designer with a passion for crafting user-centric and visually appealing digital
+              experiences.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="images/responsive.png" alt="image">
+          </div>
+          <div class="services-info">
+            <h3>Responsive Website</h3>
+            <p>The goal is for a website to retain its optimal usability and appearance regardless of the device it's
+              displayed on.</p>
+          </div>
+        </div>
+        <!-- === CARD END === -->
+
+      </div>
+  </section>
+  <!-- === SERVICES END === -->
+
+
+  <!-- === SKILLS START HELLO WORLD === -->
+  <section class="skills">
+
+    <div class="skills-container">
+      
+      <!-- === HEADER === -->
+      <div class="textWrapper">
+        <h2>Skills</h2>
+      </div>
+      <p class="skills-desc">These are some of the skills I have and the technologies I use to make my projects.</p>
+      <!-- === HEADER === -->
+      
+      <!-- === SKILLS CONTAINER START === -->
+      <div class="all-skills">
+
+        <!-- === BAR SECTION START === -->
+        <div class="skill-bars" data-aos="fade-up" data-aos-duration="500">
+          
+          <!-- === SKILL BARS START === -->
+          <div class="bar">
+            <div class="info">
+              <span>VB. Net</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>JAVASCRIPT</span>
+            </div>
+            <div class="progress-line jquery">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>PHP</span>
+            </div>
+            <div class="progress-line mysql">
+              <span></span>
+            </div>
+          </div>
+          <!-- === SKILLS BAR END === -->
+
+        </div>
+        <!-- === BAR SECTION START END === -->
+
+        <!-- === LOGO SECTION START === -->
+        <div class="skills-content" data-aos="fade-down" data-aos-duration="500">
+          
+          <!-- === SKILLS CARD START === -->
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/html.png" alt="HTML">
+            </div>
+            <div class="content-desc">
+              <h3>HTML</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/css.png" alt="CSS">
+            </div>
+            <div class="content-desc">
+              <h3>CSS</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/JavaScript.png" alt="JavaScript">
+            </div>
+            <div class="content-desc">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/vbnet.png" alt="Visual Basic .Net">
+            </div>
+            <div class="content-desc">
+              <h3>Visual Basic .Net</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/java.png" alt="Java">
+            </div>
+            <div class="content-desc">
+              <h3>Java</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/c++.png" alt="C++">
+            </div>
+            <div class="content-desc">
+              <h3>C++</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/office.png" alt="MS Office">
+            </div>
+            <div class="content-desc">
+              <h3>MS Office</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/php.png" alt="PHP">
+            </div>
+            <div class="content-desc">
+              <h3>PHP</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/bootstrap.png" alt="Bootstrap">
+            </div>
+            <div class="content-desc">
+              <h3>Bootstrap</h3>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <div class="icon">
+              <img src="images/github.png" alt="GitHub">
+            </div>
+            <div class="content-desc">
+              <h3>GitHub</h3>
+            </div>
+          </div>
+          <!-- === SKILLS CARD END === -->
+
+        </div>
+        <!-- === LOGO SECTION END === -->
+      </div>
+       <!-- === SKILLS CONTAINER END === -->
+
+    </div>
+  </section>
+  <!-- === SKILLS END === -->
+
+
+  <!-- === TIMELINE START === -->
+  <section class="timeline">
+    <div class="timeline-container">
+
+      <div class="timeline-row">
+        
+        <!-- === EDUCATIONS START === -->
+        <div class="timeline-column">
+          <h2>EDUCATIONS</h2>
+          <div class="timeline-contents">
+            <div class="box" data-aos="fade-up" data-aos-duration="500">
+              <h4>2021 - Present</h4>
+              <h3>College</h3>
+              <p> Bachelor of Science in Information Technology at National Teachers College</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="700">
+              <h4>2019 - 2020</h4>
+              <h3>College</h3>
+              <p>Bachelor of Science in Information Technology at AMA Computer College - Fairview Campus</p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="900">
+              <h4>2017 - 2019</h4>
+              <h3>Senior High School</h3>
+              <p>TVL - ICT at AMA Computer College - Fairview Campus</p>
+            </div>
+          </div>
+        </div>
+        <!-- === EDUCATIONS END === -->
+
+
+        <!-- === EXPERIENCE START === -->
+        <div class="timeline-column">
+          <h2>EXPERIENCE</h2>
+          <div class="timeline-contents">
+            <div class="box" data-aos="fade-up" data-aos-duration="500">
+              <h4>NOV - DEC 2019</h4>
+              <h3>BGRY 178 ENCODER</h3>
+              <p>During my immersion, my task was to encode and schedule the hearing happen on that day.</p>
+            </div>
+          </div>
+        </div>
+        <!-- === EXPERIENCE START === -->
+      </div>
+
+    </div>
+  </section>
+  <!-- === TIMELINE END === -->
+
+  <!-- === PROJECT START === -->
+  <section class="projects">
+    
+    <!-- === HEADER === -->
+    <div class="textWrapper">
+      <h2>Projects</h2>
+    </div>
+    <p class="proj-desc"></p>
+    <!-- === HEADER === -->
+
+      <!-- === PROJECT CONTAINER START === -->
+      <div class="project-container">
+        
+        <!-- === PROJECT CARD START === -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="500">
+          <div class="meta">
+            <div class="photo" style="background-image: url(images/projectpreview.png)"></div>
+          </div>
+
+          <div class="description">
+            <h1>Laboratory Attendance Management System</h1>
+            <p>The Laboratory Attendance Management System(LAMS) was develop for our final project in Objected-Oriented Programming. This will ease the roll calling names or writing on a paper before the start of class.
+            </p>
+            <button class="proj-btn">
+              <a href="https://github.com/hwangLeb/LAMS" target="_blank">View Project<i
+                  class="ri-arrow-right-up-line"></i></a>
+            </button>
+          </div>
+        </div>
+          <!-- === PROJECT CARD END === -->
+
+      </div>
+      <!-- === PROJECT CONTAINER END === -->
+
+  </section>
+  <!-- === PROJECT END === -->
+ 
+  <!-- === CERTIFICATES START === -->
+
+  <section class="certificates">
+    
+    <!-- === HEADER === -->
+    <div class="textWrapper">
+      <h2>Certificates</h2>
+    </div>
+    <p class="cert-desc">Discover webinars and seminars I've attended, showcasing my commitment to continuous learning and professional development.</p>
+    <!-- === HEADER === -->
+
+      <!-- === FILTER BUTTONS START  === -->
+      <div class="items-links">
+        <span class="item-link menu-active" data-name="all">All</span>
+      </div>
+      <!-- === FILTER BUTTONS END === -->
+
+      <!-- === GALLERY CONTAINER START === -->
+      <div class="gallery">
+
+        <!-- === GALLERY START === -->
+        <div class="cert-img" data-name="webinar">
+          <img src="images/certificate1.png" alt="Certificates">
+          <div class="overlay">
+            <h4>Cyber Security</h4>
+            <p>Cyber Security Fundamentals</p>
+            <div class="action-aria">
+              <a href="images/certificate1.png" target="_blank" class="cert-btn">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- === GALLERY END === -->
+
+      </div>
+      <!-- === GALLERY CONTAINER END === -->
+
+  </section>  
+  <!-- === CERTIFICATES END === -->
+
+  
+        </div>
+      <div class="blog-slider__pagination"></div>
+      <!-- === SLIDER CONTAINER END === -->
+
+    </div>
+
+  </section>
+
+  <!-- === CONTACT START === -->
+  <section class="contact">
+
+    <!-- === HEADER === -->
+    <div class="textWrapper">
+      <h2>Contact</h2>
+    </div>
+    <p class="contact-desc">Coding solutions that inspire and engage. Let's connect to bring your web vision to life.</p>
+    <!-- === HEADER === -->
+
+    <!-- === MAIN CONTAINER === -->
+    <div class="contact-container">
+
+      <!-- === GET IN TOUCH START === -->
+      <div class="column">
+        <h1>Get in touch:</h1>
+        <p>
+          Let's chat and make great things happen. Reach out now!
+        </p>
+        <h3><i class="ri-contacts-book-2-line"></i>Contact:</h3>
+        <p>
+          <a href="tel:+639193591280">(+63)9658220295</a>
+        </p>
+        <h3><i class="ri-mail-line"></i>Email:</h3>
+        <p>
+          <a href="mailto:eugenioviel@gmail.com" target="_blank">eugenioviel@gmail.com</a>
+        </p>
+        <h3><i class="ri-home-line"></i>Address:</h3>
+        <p>
+          <a href="https://maps.app.goo.gl/ZRSo8LEgHvou9puF8" target="_blank">Holy Spirit, Quezon city</a>
+        </p>
+        <div class="social-buttons">
+          <a href="https://github.com/hwangLeb" class="social-button github" target="_blank">
+            <svg class="cf-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="-2.5 0 19 19">
+              <path
+                d="M9.464 17.178a4.506 4.506 0 0 1-2.013.317 4.29 4.29 0 0 1-2.007-.317.746.746 0 0 1-.277-.587c0-.22-.008-.798-.012-1.567-2.564.557-3.105-1.236-3.105-1.236a2.44 2.44 0 0 0-1.024-1.348c-.836-.572.063-.56.063-.56a1.937 1.937 0 0 1 1.412.95 1.962 1.962 0 0 0 2.682.765 1.971 1.971 0 0 1 .586-1.233c-2.046-.232-4.198-1.023-4.198-4.554a3.566 3.566 0 0 1 .948-2.474 3.313 3.313 0 0 1 .091-2.438s.773-.248 2.534.945a8.727 8.727 0 0 1 4.615 0c1.76-1.193 2.532-.945 2.532-.945a3.31 3.31 0 0 1 .092 2.438 3.562 3.562 0 0 1 .947 2.474c0 3.54-2.155 4.32-4.208 4.548a2.195 2.195 0 0 1 .625 1.706c0 1.232-.011 2.227-.011 2.529a.694.694 0 0 1-.272.587z">
+              </path>
+            </svg>
+          </a>
+       
+          <a href="https://www.facebook.com/hwang.lev" class="social-button facebook" target="_blank">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310" xml:space="preserve">
+              <g id="XMLID_834_">
+                <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+            c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+            V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+            C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+            c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"></path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/hwangleb/" class="social-button instagram" target="_blank">
+            <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1">
+                <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                      id="instagram-[#167]">
+                    </path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- === GET IN TOUCH START === -->
+
+      <!-- === SEND FORM START === -->
+      <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Fullname" autocomplete="name" required>
+
+        <label for="contactNo">Contact No:</label>
+        <input type="tel" id="contactNo" name="contactNo" placeholder="Contact Number" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      <!-- === SEND FORM START === -->
+
+    </div>
+    <!-- === MAIN CONTAINER END === -->
+
+  </section>
+  <!-- === CONTACT END === -->
+
+  <!-- === KAPIRAYT START === -->
+  <footer class="copyright">
+    <strong>Copyright © 2023 by Viel Eugenio. All rights reserved.</strong>
+  </footer>
+  <!-- === KAPIRAYT END === -->
+
+  <!-- === SCROLL UP START === -->
+  <button id="scroll-up" class="scroll-up">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="none"></path>
+      <path fill="rgba(255,255,255,1)"
+        d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z">
+      </path>
+    </svg>
+  </button>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollUpButton = document.querySelector(".scroll-up");
+
+      scrollUpButton.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      window.addEventListener("scroll", function () {
+        const currentScrollPosition = window.scrollY;
+
+        if (currentScrollPosition > 100) {
+          scrollUpButton.style.opacity = "1";
+          scrollUpButton.style.bottom = "1rem";
+        } else {
+          scrollUpButton.style.opacity = "0";
+          scrollUpButton.style.bottom = "-40px";
+        }
+      });
+    });
+  </script> -->
+  <!-- === SCROLL UP END === -->
+  <div id="fb-root"></div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+ 
+   <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "165638296631212");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v18.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- === DARKMODE LIGHTMODE TOGGLE === -->
+  <script>
+    const lightModeToggle = document.getElementById('lightModeToggle')
+    const body = document.body
+
+    function toggleLightMode() {
+      body.classList.toggle('light-mode')
+      const isLightMode = body.classList.contains('light-mode')
+      localStorage.setItem('lightMode', isLightMode ? 'enabled' : 'disabled')
+    }
+
+    const isLightMode = localStorage.getItem('lightMode') === 'enabled'
+
+    if (isLightMode) {
+      body.classList.remove('light-mode')
+      lightModeToggle.checked = false
+    }
+
+    lightModeToggle.addEventListener('change', toggleLightMode)
+  </script>
+  
+  <!-- === DARKMODE LIGHTMODE TOGGLE END === -->
+
+  <!-- === OTHER SCRIPT START === -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" ></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.0/dist/sweetalert2.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- === OTHER SCRIPT END === -->
+
+</body>
+</html>
